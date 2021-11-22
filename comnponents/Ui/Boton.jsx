@@ -14,6 +14,10 @@ const Boton = styled.a`
         margin-right:0;
     }
 
+    &:hover{
+        cursor:pointer;
+    }
+
 `;
 
 export default Boton;

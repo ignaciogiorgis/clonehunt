@@ -23,7 +23,7 @@ const Layout = (props) => {
                     box-sizing:inherit;
                 }
                 body{
-                    font-size:1.6rem;
+                    font-size:.9rem;
                     line-height:1.5;
                 }
                 h1,h2, h3{
