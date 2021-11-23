@@ -11,7 +11,7 @@ const InputText = styled.input`
 const InputSubmit = styled.button`
     height: 3rem;
     width: 3rem;
-    display: block;  
+    display: block;
     background-size: 3rem;
     background-image: url('/static/img/buscar.png');
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ const InputSubmit = styled.button`
     &:hover{
         cursor:pointer;
     }
-`; 
+`;
 
 const Buscar = () => {
     return (
@@ -37,8 +37,6 @@ const Buscar = () => {
                 <InputText type="text" placeholder="Buscar Productos" />
                 <InputSubmit  type="submit">Buscar</InputSubmit>
             </form>
-      );
+    );
 }
- 
 export default Buscar;
-    
